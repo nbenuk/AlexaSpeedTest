@@ -1,0 +1,53 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "speed test",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "DownloadSpeedIntent",
+          "slots": [],
+          "samples": [
+            "Internet speed",
+            "Download speed",
+            "Speed test",
+            "Speed test my internet",
+            "What is my internet speed",
+            "What\u0027s my downloads speed"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "ThankYouIntent",
+          "slots": [],
+          "samples": [
+            "Safe",
+            "Cheers",
+            "Thank You",
+            "Thanks"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}
